@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/vname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:elevation="10dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:text="@string/welcome"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.181"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            android:fontFamily="@font/sansregular"
+            android:text="@string/ETransport"
+            android:textColor="@color/silverc4"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90sp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <EditText
+            android:id="@+id/mUserId"
+            android:layout_width="318dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="39dp"
+            android:background="@drawable/border"
+            android:drawableEnd="@drawable/person"
+            android:drawableRight="@drawable/person"
+            android:foregroundGravity="center_vertical|clip_horizontal"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            tools:ignore="TextContrastCheck" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/mPassword"
+            android:layout_width="318dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:drawableEnd="@drawable/lock"
+            android:drawableRight="@drawable/lock"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp" />
+
+        <Button
+            android:id="@+id/mForgetPassword"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="154dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/forget"
+            android:textColor="#0C0C0C"
+            android:textSize="11dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/mLoginButton"
+            android:layout_width="318dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/lightBlack"
+            android:foregroundGravity="center_vertical|clip_horizontal"
+            android:text="@string/login"
+            android:textSize="20dp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+        </com.google.android.gms.common.SignInButton>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

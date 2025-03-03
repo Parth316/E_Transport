@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">E_Transport</string>
+    <!-- MainActivity (Login Page) Strings -->
+    <string name="welcome">Welcome to</string>
+    <string name="ETransport">E-Transport</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget">Forget Password ?</string>
+    <!--OrderActivity Strings-->
+    <string name="login2">LOGIN</string>
+    <string name="Address">Enter Pickup Address</string>
+    <string name="Address2">Enter Drop Address</string>
+    <string name="Pincode">Enter Pickup Area Pincode </string>
+    <string name="Pincode2">Enter Drop Area Pincode </string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_temp">Temp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="mobileno">Enter Mobile Number</string>
+    <string name="date">Enter Date</string>
+    <string name="weight">Enter Weight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Lorem ipsum dolor sit ame,consectetur</string>
+
+
+
+
+</resources>

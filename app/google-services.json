@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "864775215970",
+    "project_id": "e-transport-339609",
+    "storage_bucket": "e-transport-339609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864775215970:android:5c98f05e7e54323c72aa3b",
+        "android_client_info": {
+          "package_name": "com.example.e_transport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864775215970-qs9okl5vcevs4r85pjrm6cqvn3adur8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfXaWY2L-hZfR1PDpSbdgsVU4IBGAkAyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864775215970-qs9okl5vcevs4r85pjrm6cqvn3adur8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864775215970:android:26bc651316356cc972aa3b",
+        "android_client_info": {
+          "package_name": "com.example.radiobutton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864775215970-qs9okl5vcevs4r85pjrm6cqvn3adur8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfXaWY2L-hZfR1PDpSbdgsVU4IBGAkAyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864775215970-qs9okl5vcevs4r85pjrm6cqvn3adur8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

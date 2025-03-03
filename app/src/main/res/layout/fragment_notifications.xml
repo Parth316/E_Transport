@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:background="@color/blue" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/border"
+                android:backgroundTint="@color/silver"
+                app:cardCornerRadius="5sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/pickuppoint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/border"
+                        android:drawableStart="@drawable/location"
+                        android:drawablePadding="10sp"
+                        android:drawableTint="@color/black"
+                        android:ems="10"
+                        android:hint="Enter Pickup Point"
+                        android:inputType="textPersonName"
+                        android:padding="12sp"
+                        android:paddingStart="10sp"
+                        tools:layout_editor_absoluteX="3dp"
+                        tools:layout_editor_absoluteY="100dp" />
+
+                    <EditText
+                        android:id="@+id/droppoint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/border"
+                        android:drawableStart="@drawable/location2"
+                        android:drawablePadding="10sp"
+                        android:drawableTint="@color/black"
+                        android:ems="10"
+                        android:hint="Enter Drop Point"
+                        android:inputType="textPersonName"
+                        android:padding="12sp"
+                        android:paddingStart="10sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/cardView"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/greybg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/filldetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35sp"
+                    android:layout_marginTop="23sp"
+                    android:fontFamily="@font/work_sans"
+                    android:text="Please fill the details given below"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/pickupaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30sp"
+                    android:layout_marginTop="14sp"
+                    android:layout_marginEnd="30sp"
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:hint="@string/Address"
+                    android:inputType="textPersonName"
+                    android:padding="15sp" />
+
+                <EditText
+                    android:id="@+id/dropaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30sp"
+                    android:layout_marginTop="14sp"
+                    android:layout_marginEnd="30sp"
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:hint="@string/Address2"
+                    android:inputType="textPersonName"
+                    android:padding="15sp" />
+
+
+                <EditText
+                    android:id="@+id/pickuppincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30sp"
+                    android:layout_marginTop="14sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:hint="@string/Pincode"
+                    android:inputType="textPersonName"
+                    android:padding="15sp" />
+
+                <EditText
+                    android:id="@+id/droppincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30sp"
+                    android:layout_marginTop="14sp"
+                    android:layout_marginEnd="30sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:hint="@string/Pincode2"
+                    android:inputType="textPersonName"
+                    android:padding="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/border"
+                        android:hint="Enter Weight"
+                        android:padding="15dp" />
+
+                    <EditText
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/calender"
+                        android:drawableTint="@color/black"
+                        android:hint="Select Date"
+                        android:padding="15dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35sp"
+                    android:layout_marginTop="23sp"
+                    android:fontFamily="@font/work_sans"
+                    android:text="Please select Vehicle"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+                <Button
+                    android:id="@+id/continuebtninhomepage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:backgroundTint="@color/blue"
+                    android:onClick="submit_order"
+                    android:padding="18dp"
+                    android:text="Continue"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_weight="1">-->
+
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            app:menu="@menu/items"/>-->
+<!--    </RelativeLayout>-->
+
+</LinearLayout>
